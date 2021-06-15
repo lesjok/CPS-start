@@ -137,6 +137,9 @@ body {
 }
 }
 @media (min-width: 1120px) {
+body {
+  background-color: #F8F8F8;
+}
 .container {
   background-color: #F8F8F8;
   padding-top: 25px;
