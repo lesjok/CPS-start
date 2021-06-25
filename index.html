@@ -7,6 +7,7 @@
   <title>CPS</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <script src="main.js" defer></script>
 </head>
 <body>
   <div class="container">
@@ -14,7 +15,7 @@
       <div class="header__inner">
         <div class="menu-group--left">
         <nav class="header__menu">
-          <a class="menu__link" href="#">
+          <a class="menu__link" href="#" id="btn">
             <img src="img/back.svg" alt="menu">
             <img src="img/icon.png" alt="icon" class="icon__menu">
           </a>
@@ -84,7 +85,7 @@
       <div class="description__text">
       <p>Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой
         ноутбук Dell с официальной гарантией производителя.</p><br>
-        <p>Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера<span class="description__text--large">, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</span></p>
+        <p class="p__large">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера<span class="description__text--large">, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</span></p>
       <a href="#" class="read-more">Читать далее</a>
       </div>  
       <div class="description__photo--container">
@@ -95,5 +96,59 @@
    </div>
   </div>
  </div>
+
+<div class="popup" id="popup">
+  <header class="header">
+    <div class="menu-left">
+      <button class="btn" type="button" id="btn-close">
+        <img src="img/icon.svg" alt="cancel">
+      </button>
+      <a href="/">
+        <img src="img/Group.svg" alt="logo">
+      </a>
+    </div>
+    <div class="menu-right">
+      <button class="btn" type="button">
+        <img src="img/search1.svg" alt="search">
+      </button>
+    </div>
+  </header>
+  <div class="main">
+    <h1>Ремонт техники</h1>
+    <nav>
+      <ul class="service__menu">
+        <li><a href="#">Услуги и сервисы</a></li>
+        <li><a href="#">Корпоративным клиентам</a></li>
+        <li><a href="#">Продавцам техники</a></li>
+        <li><a href="#">Партнерам</a></li>
+        <li><a href="#">Производителям</a></li>
+        <li><a href="#">Наши сервисные центры</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+    </nav>
+  </div>
+  <footer class="footer">
+    <div class="footer__hero">
+      <div class="footer__menu">
+        <button class="btn" type="button">
+          <img src="img/tel.svg" alt="phone">
+        </button>
+        <button class="btn" type="button">
+          <img src="img/message.svg" alt="message">
+        </button>
+        <button class="btn" type="button">
+          <img src="img/account.svg" alt="login">
+        </button>
+      </div>
+      <a href="#" class="footer__email">mail@cps.com</a>
+      <span class="footer__tel">8 800 890 8900</span>
+    </div>
+    <div class="lang">
+      <a href="#">RU</a>
+      <a href="#">EN</a>
+      <a href="#">CH</a>
+    </div>
+  </footer>
+</div>
 </body>
 </html>
