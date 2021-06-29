@@ -39,6 +39,7 @@ body {
   overflow-x: hidden;
   font-family: 'TT Lakes Regular', "Arial", sans-serif;
   color: #1B1C21;
+  background-color: #F8F8F8;
 }
 .popup-section {
   opacity: 1;
@@ -50,6 +51,7 @@ body {
   justify-content: space-between;
   align-items: center;
   min-height: 88px;
+  background-color: white;
 }
 .menu-group--left {
   display: flex;
@@ -172,21 +174,15 @@ body {
 }
 }
 @media (min-width: 1120px) {
-body {
-  background-color: #F8F8F8;
-}
 .menu-group--right {
   display: none;
-}
-.container {
-  background-color: #F8F8F8;
-  padding-top: 25px;
 }
 .items-large {
   display: flex;
   padding-right: 32px;
   justify-content: space-between;
   width: 38%;
+  transform: translateY(-90px);
 }
 .item-large {
   min-width: 185px;
@@ -291,7 +287,6 @@ position: absolute;
 .main {
   padding-top: 24px;
   padding-bottom: 35px;
-  background-color: #F8F8F8;
 }
 .main h1 {
   font-family: 'TT Lakes Bold';
