@@ -1,1 +1,1 @@
-https://clever-meitner-2084f7.netlify.app/
+https://quizzical-lamarr-8806f9.netlify.app
